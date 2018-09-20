@@ -19,7 +19,7 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.header {
+header {
     box-sizing: border-box;
     height: 90px;
     background: white;
