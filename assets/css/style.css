@@ -1,10 +1,25 @@
 /* CSS File for Portfolio */
 
+/* body, html {
+    height: 100%;
+} */
+
+body {
+    background-image: url("assets/images/bg.png");
+    background-color: #eeee;
+    background-repeat: repeat;
+    /* height: 100%;  */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+ }
+
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-head {
+.header {
     box-sizing: border-box;
     height: 90px;
     background: white;
@@ -27,7 +42,4 @@ p {
 
 }
 
-body {
-    background-image: url("assets/images/what-the-hex-dark.png");
-    background-color: #cccccc;
- }
+
