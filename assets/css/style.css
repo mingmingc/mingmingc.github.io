@@ -1,19 +1,10 @@
 /* CSS File for Portfolio */
 
-/* body, html {
-    height: 100%;
-} */
-
-body {
+html {
     background-image: url("assets/images/bg.png");
     background-color: #eeee;
-    background-repeat: repeat;
-    /* height: 100%;  */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
- }
-
+    background-repeat: round;
+}
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -21,14 +12,15 @@ h1 {
     font-weight: bold; 
 }
 
-header {
+.top {
     box-sizing: border-box;
     height: 90px;
-    background: white;
+    background: #ffffff;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
 }
+
 
 .name {
     box-sizing: border-box;
@@ -38,7 +30,7 @@ header {
     padding: 25px;
     left: 220px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     background: #4aaaa5;
 }
 
@@ -67,3 +59,14 @@ p, a {
     color: #4aaaa5;
 }
 
+.content {
+    margin: auto;
+    margin-top: 135px;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+#bodyText {
+    font-size: 16px;
+    letter-spacing: 1.5;
+}
