@@ -1,7 +1,7 @@
 /* CSS File for Portfolio */
 
 html {
-    background-image: url("assets/images/bg.png");
+    background-image: url("../images/bg.png");
     background-color: #eeee;
     background-repeat: round;
 }
