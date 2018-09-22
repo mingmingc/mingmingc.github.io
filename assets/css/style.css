@@ -66,6 +66,10 @@ p, a {
     background-color: #ffffff;
 }
 
+.portrait {
+    float: left; 
+}
+
 #bodyText {
     font-size: 16px;
     letter-spacing: 1.5;
