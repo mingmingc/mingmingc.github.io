@@ -60,17 +60,27 @@ p, a {
 }
 
 .content {
+    clear: both;
+    overflow: auto;
     margin: auto;
     margin-top: 135px;
     width: 960px;
+    padding: 45px 35px 45px 35px;
     background-color: #ffffff;
 }
 
 .portrait {
     float: left; 
+    padding: 40px 25px 40px 35px; 
+}
+
+hr {
+    width: 800px;
 }
 
 #bodyText {
-    font-size: 16px;
-    letter-spacing: 1.5;
+    font: Helvetica;
+    font-size: 18px;
+    line-height: 27px;
+    /* letter-spacing: 1.5px; */
 }
