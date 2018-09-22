@@ -86,3 +86,19 @@ hr {
     line-height: 27px;
     padding: 35px 45px 40px;
 }
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    padding-top: 40px;
+    background: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dddddd;
+    text-align: center;
+ }
