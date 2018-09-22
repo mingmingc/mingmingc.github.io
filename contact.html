@@ -4,61 +4,65 @@
 <!DOCTYPE html>
 
 <html> 
-    <head>
-        <meta charset="UTF-8">
-        <title> Contact </title>
+<head>
+    <meta charset="UTF-8">
+    <title> Contact | Mingming Caressi </title>
 
-        <!-- Link to external CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-        <!--Main Header -->
-        <h1> Mingming Caressi </h1> <br>
+</head>
 
-        <!--Site links-->
-        <div class = "links"> 
-            <a href = "index.html"> About </a> <br>
-            <a href = "portfolio.html"> Portfolio </a> <br>
-            <a href = "contact.html"> Contact </a> <br>
-        </div>
+<body>
 
-    </head>
 
-    <body>
+    <!--Main Header -->
+    <header class = "top">
+        <h1 class = "name"> Mingming Caressi </h1> <br>
 
-        <!--Contact Header-->
-        <div class = "sectionHeader">
+        
+    <!--Site links-->
+        <nav class = "links"> 
+            <a href = "index.html">About</a> | 
+            <a href = "portfolio.html">Portfolio</a> |
+            <a href = "contact.html">Contact</a> 
+        </nav>
+
+
+    </header>
+
+
+    <section class = "content"> 
+        <header class = "sectionHeader">
             <h1> Contact </h1>
             <br> 
+        </header>
 
-        </div>
-
-        <!--Divider will go here-->
-
-        <!--Form--> 
-        <!--Height & width of text boxes specified in style.css. 
-        Use padding feature to space out? -->
+        <!--Divider goes here--> <hr noshade> 
 
         <form action="/action_page.php" method="get">
             <!--Name field
                 760px x 35px-->
-            Name: <input type="text" name="name" placeholder="Jane Smith"><br> 
+            Name <br> <input type="text" name="name" placeholder="Jane Smith"><br> 
             <!--Email field
             760px x 35px-->
-            Email: <input type="text" name="email" placeholder="example@gmail.com"><br> 
+            Email <br> <input type="text" name="email" placeholder="example@gmail.com"><br> 
             <!--Text box for message
                 760 X 170-->
-            Message: <textarea> </textarea> <br> 
+            Message <br> <textarea> </textarea> <br> 
             <!--Submit button-->
             <input type="submit" value="Submit">
         </form>
-          
-    </body>
+    </section>
+        
+</body>
 
-    <!--Footer-->
-    <footer>
-        <div class = "footer">
-            Copyright &copy;
-        </div>
-    </footer>
+<!--Footer-->
+<footer>
+    <div class = "footer">
+        Copyright &copy;
+    </div>
+</footer>
 
 </html>
