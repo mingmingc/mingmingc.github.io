@@ -3,7 +3,7 @@
 html {
     background-image: url("../images/bg.png");
     background-color: #eeee;
-    background-repeat: round;
+    background-repeat: repeat;
 }
 
 h1 {
@@ -85,6 +85,10 @@ hr {
     font-size: 18px;
     line-height: 27px;
     padding: 35px 45px 40px;
+}
+
+.row {
+    padding: 30px; 
 }
 
 .footer {
