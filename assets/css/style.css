@@ -57,15 +57,16 @@ p, a {
 
 .sectionHeader {
     color: #4aaaa5;
+    padding-left: 35px;
 }
 
 .content {
     clear: both;
     overflow: auto;
     margin: auto;
-    margin-top: 135px;
+    margin-top: 50px;
     width: 960px;
-    padding: 45px 35px 45px 35px;
+    padding: 50px 35px 50px 35px;
     background-color: #ffffff;
 }
 
@@ -84,7 +85,7 @@ hr {
     font: Helvetica;
     font-size: 20px;
     line-height: 30px;
-    padding: 35px 45px 40px;
+    padding: 35px;
 }
 
 .row {
