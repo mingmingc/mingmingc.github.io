@@ -127,3 +127,22 @@ span {
     font-size: 20px;
     color: #777777; 
  }
+
+ .form-entry {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 880px;
+ }
+
+ #message {
+    height: 170px;
+ }
+
+ #submit-button {
+    height: 35px;
+    width: 100px;
+    color: #ffffff;
+    background-color:#4aaaa5;
+ }
