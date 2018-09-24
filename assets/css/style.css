@@ -92,8 +92,13 @@ hr {
     padding: 30px; 
 }
 
-.portfolio-img {
-    height: 180px; 
+.project-img {
+    width: 237px;
+}
+
+.project-name {
+    width: ;
+    padding: auto; 
 }
 
 span {
