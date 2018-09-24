@@ -28,15 +28,15 @@ h1 {
     height: 88px; 
     width: 350px; 
     padding: 25px;
-    left: 220px;
+    left: 445px;
     text-align: center;
     color: #ffffff;
     background: #4aaaa5;
 }
 
 .links {
-    position: absolute;
-    right: 220px;
+    position: fixed;
+    right: 445px;
     top: 35px;
 }
 
