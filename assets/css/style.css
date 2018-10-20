@@ -92,12 +92,27 @@ hr {
     padding: 30px; 
 }
 
-.project-img {
-    width: 237px;
-}
+.img-responsive {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .project-name {
-    padding: auto; 
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;  
 }
 
 span {
