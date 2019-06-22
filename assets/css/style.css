@@ -1,7 +1,6 @@
 /* CSS File for Portfolio */
 
 html {
-    /* background-image: url("../images/bg.png"); */
     background-color: #eeee;
     background-repeat: repeat;
 }
@@ -9,6 +8,8 @@ html {
 body {
     margin: 50px;
     align-content: center;
+    font: 'Lora';
+    font-family: 'Lora', serif;
 }
 
 h1 {
@@ -19,6 +20,11 @@ h1 {
 
 .column {
     margin: 5px;
+}
+
+#bodyText {
+    font-size: 20px;
+    line-height: 30px; 
 }
 
 
@@ -91,12 +97,7 @@ hr {
     border-color: #dddddd;
 } */
 
-#bodyText {
-    font: Helvetica;
-    font-size: 20px;
-    line-height: 30px; 
-    /* padding: 35px; */
-}
+
 
 /* .img-responsive {
     position: relative;
