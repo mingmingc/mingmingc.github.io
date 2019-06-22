@@ -1,7 +1,7 @@
 /* CSS File for Portfolio */
 
 html {
-    background-image: url("../images/bg.png");
+    /* background-image: url("../images/bg.png"); */
     background-color: #eeee;
     background-repeat: repeat;
 }
@@ -12,10 +12,15 @@ body {
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times, serif;
     font-size: 32px;
     font-weight: bold; 
 }
+
+.column {
+    margin: 5px;
+}
+
 
 /* .top {
     /* box-sizing: border-box;
@@ -27,16 +32,16 @@ h1 {
     }*/
 
 
-.title {
-    box-sizing: border-box;
+/* .title {
+    box-sizing: border-box; */
     /* position: absolute; */
-    height: 88px; 
+    /* height: 88px; 
     width: 500px; 
-    padding: 25px;
+    padding: 25px; */
     /* left: 445px; */
-    text-align: center;
-    color: #ffffff;
-    background: #4aaaa5;
+    /* text-align: center; */
+    /* color: #ffffff;
+    background: #4aaaa5; */
 }
 
 /* .links {
@@ -45,7 +50,7 @@ h1 {
     top: 35px;
 } */
 
-a {
+/* a {
     text-decoration: none; 
     color: #777777;
 }
@@ -57,24 +62,24 @@ a:hover {
 p, a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777; 
-}
+} */
 
-
+/* 
 .sectionHeader {
-    color: #4aaaa5;
+    color: #4aaaa5; */
     /* padding-left: 35px; */
-}
+/* } */
 
-.content {
+/* .content {
     clear: both;
     overflow: auto;
     margin: auto;
     margin-top: 50px;
-    width: 960px;
+    width: 960px; */
     /* padding: 50px 35px 50px 35px; */
-    background-color: #ffffff;
-}
-
+    /* background-color: #ffffff;
+} */
+/* 
 .portrait {
     float: left; 
     padding-right: 25px ; 
@@ -84,29 +89,25 @@ hr {
     width: 900px;
     height: 2px;
     border-color: #dddddd;
-}
+} */
 
 #bodyText {
     font: Helvetica;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 30px; 
     /* padding: 35px; */
 }
 
-.row {
-    padding: 30px; 
-}
-
-.img-responsive {
+/* .img-responsive {
     position: relative;
     display: block;
     max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
-.project-name {
+/* .project-name {
     position: absolute;
     bottom: 20px;
     width: 90%;
@@ -169,4 +170,4 @@ span {
     width: 100px;
     color: #ffffff;
     background-color:#4aaaa5;
- }
+ } */
