@@ -22,9 +22,14 @@ h1 {
     margin: 5px;
 }
 
-#bodyText {
+#body-text {
     font-size: 20px;
     line-height: 30px; 
+}
+
+.portfolio-title {
+    width: 90%;
+    text-align: center;
 }
 
 
@@ -48,7 +53,7 @@ h1 {
     /* text-align: center; */
     /* color: #ffffff;
     background: #4aaaa5; */
-}
+/* } */
 
 /* .links {
     position: fixed;
