@@ -13,21 +13,20 @@ body {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold; 
 }
 
 .title {
     color: teal;
-    font-weight: bold;
-    width: 75%;
+    font-weight: bold;    
 }
 
 #name {
     /* font-family: 'Coming Soon', cursive; */
     /* font-family: 'Delius', cursive; */
     font-family: 'Delius Unicase', cursive;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .column {
