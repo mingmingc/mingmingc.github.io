@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: linear-gradient(to bottom right, #0e0f50, teal);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -214,10 +214,6 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
-
-	.bold {
-		font-weight: bold;
 	}
 
 /* Container */
@@ -2003,12 +1999,13 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 19em 0;
+		padding: 14em 0 14em 0;
 		cursor: default;
 	}
 
 		#header header {
 			display: inline-block;
+			padding: 0 0 4.5em 0;
 		}
 
 			#header header h1 {
@@ -2129,10 +2126,6 @@ input, select, textarea {
 			#banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
 			}
-	
-	#portrait {
-		width: 300px;
-	}
 
 /* Footer */
 
@@ -2329,15 +2322,6 @@ input, select, textarea {
 			#header {
 				padding: 10em 0 12em 0;
 			}
-		
-		/* Banner */
-			#banner {
-				padding: 5em 25em 5em 25em;
-			}
-
-			#portrait {
-				width: 300px;
-			}
 
 	}
 
@@ -2348,7 +2332,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 4em 4em 4em 4em;
+				padding: 4em 0 4em 0;
 				background-size: auto, 175% auto;
 			}
 
@@ -2368,7 +2352,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: linear-gradient(to bottom right, #0e0f50, teal);
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
@@ -2466,8 +2450,7 @@ input, select, textarea {
 			h2 {
 				font-size: 1.25em;
 				letter-spacing: 4px;
-			} 
-			
+			}
 
 		/* List */
 
